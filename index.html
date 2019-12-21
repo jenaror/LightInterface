@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>LED</title>
+  <link rel="stylesheet" href="index.css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="headerTitle">
+    <h2>RGB Selector</h2>
+  </div>
+  <div class="hslSliders">
+    <div class="hueGrid">
+
+      <p id="hueGrid">
+        <h3>Hue</h3>
+        <input type="range" name="hueSlider" id="hueSelector" min="1" max="360" />
+      </p>
+
+    </div>
+    <div class="lightGrid">
+      <p id="lightGrid">
+        <h3>Lightness</h3>
+        <input type="range" name="lightnessSlider" id="lightnessSelector" min="0" max="100" value="50" step=".2" />
+      </p>
+    </div>
+  </div>
+  <div class="resultsPrint">
+    <p id="printHSL"></p>
+    <p id="printRGB"></p>
+  </div>
+</body>
+<script src="index.js"></script>
+
+</html>

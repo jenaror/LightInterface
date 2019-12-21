@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+    background-color: #fff;
+    font-family: Roboto, sans-serif;
+    font-weight: 900;
+    color: #fff;
+    -webkit-text-stroke-color: #000;
+    -webkit-text-stroke-width: 1px;
+}
+
+.hslSliders {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.hueGrid {
+    grid-column: 1;
+}
+
+.lightGrid {
+    grid-column: 2;
+}
+
+input {
+    -webkit-appearance: slider-vertical
+}
